@@ -19,8 +19,8 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - scp
     - pip
+    - poetry-core
   run:
     - python >={{ python_min }}
     - click
